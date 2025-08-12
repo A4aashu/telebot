@@ -5,7 +5,7 @@ from pyzbar.pyzbar import decode
 import os
 
 # Replace with your bot's token
-TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
+TOKEN = "7570278447:AAFJBn4axKUxMXKK5sxEDL5C8cIP8xY7C5o"
 
 async def handle_photo_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Handles messages containing photos."""
