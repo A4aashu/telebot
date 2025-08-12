@@ -2,6 +2,7 @@ from telegram import Update
 from telegram.ext import Application, MessageHandler, filters, ContextTypes
 from PIL import Image
 from pyzbar.pyzbar import decode
+
 import os
 
 # Replace with your bot's token
